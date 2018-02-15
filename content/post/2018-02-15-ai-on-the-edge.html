@@ -16,9 +16,9 @@ tags:
 
 <p>The history of software architectures is a history of the ebb and flow of centralization and distribution. Centralization requires good network connections while promising simplicity, homogeneity, and ease of management. Distribution offers robustness and potentially unbounded scalability, but has high demands on design, especially in terms of security.</p>
 <p>Currently, the discussion is on sensor devices and the Cloud. Sensors measure the environment, people, movement, temperature, any of a million potential attributes of the world around us. Vehicles, drones, smart buildings, our mobile phones – they all collect vast amounts of data on their surroundings. Centralizing the sensor data on the Cloud offers a simple, manageable data platform, making it easy to analyse the data, make decisions based on the analysis, and act upon the decisions. However, such a vertical solution introduces potentially high latencies due to the physical distance and possibly numerous network hops between the sensor arrays and the Cloud platform. Further, transmitting the data may require a lot of bandwidth while draining the batteries of wireless devices.</p>
-<p>The figure below shows a simplified view of the vertical, Cloud based sensor data architecture. Data is collected at the end devices, with a grey background, but aggregated and processed at the central Cloud marked in red.</p>
+<p>The figure below shows a simplified view of the vertical, Cloud based sensor data architecture. Data is collected at the end devices, with a white background, but aggregated and processed at the central Cloud.</p>
 <div class="figure">
-<img src="/img/Edge%204.jpg" style="width:50.0%" />
+<img src="/img/vertical.jpg" style="width:50.0%" />
 
 </div>
 <p>The routers nodes between wireless and wired networks, aptly named the “Edge”, are a natural focal point in the discourse. Wireless connections, while making it easy to deploy sensors en masse, do not offer the same reliability and transmission capacity as cables. Three broad use cases in particular suffer from a vertical sensor-to-cloud architecture:</p>
@@ -27,9 +27,9 @@ tags:
 <li>Applications producing vast amounts of data (e.g. industrial control systems)</li>
 <li>Applications in heavily regulated areas, especially in terms of privacy (e.g. personal health monitoring)</li>
 </ol>
-<p>Edge computing tries to solve the data centralization problems by – distribution. Shreds of the Cloud are dragged to the Edge, introducing computing and storage resources in close proximity to where the data is produced. The figure below shows a simplified view of the Edge computing architecture. Data is collected at the sensor devices, in grey, but processed both at the Edge as well as in the Cloud, marked in yellow.</p>
+<p>Edge computing tries to solve the data centralization problems by – distribution. Shreds of the Cloud are dragged to the Edge, introducing computing and storage resources in close proximity to where the data is produced. The figure below shows a simplified view of the Edge computing architecture. Data is collected at the sensor devices, but processed both at the Edge (on grey) as well as in the Cloud.</p>
 <div class="figure">
-<img src="/img/Edge%205.jpg" style="width:50.0%" />
+<img src="/img/edge.jpg" style="width:50.0%" />
 
 </div>
 <p>Further reading:</p>
