@@ -16,7 +16,7 @@ image_preview = "Edge 5.png"
 tags = ["machine-learning", "edge-computing"]
 
 # Optional external URL for project (replaces project detail page).
-external_link = "http://edgeai.com"
+external_link = "http://edgeai.info"
 
 # Does the project detail page use math formatting?
 math = false
