@@ -1,0 +1,12 @@
+---
+title: Hello World!
+author: Lauri Lovén
+date: '2018-02-15'
+slug: hello-world
+categories:
+  - social
+tags: []
+---
+I'm opening this blog to document my journey towards the PhD. I intend to blog on the topics of my research: data analytics, distributed artificial intelligence, edge computing. The blog posts are mainly for my own use, collecting my thoughts on some specific issues encountered in the research. However, who knows, perhaps someone else might benefit from my musings, too.
+
+
