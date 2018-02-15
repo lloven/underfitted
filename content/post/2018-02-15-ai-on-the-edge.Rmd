@@ -14,7 +14,9 @@ tags:
 
 The history of software architectures is a history of the ebb and flow of centralization and distribution. Centralization requires good network connections while promising simplicity, homogeneity, and ease of management. Distribution offers robustness and potentially unbounded scalability, but has high demands on design, especially in terms of security.  
 
-Currently, the discussion is on sensor devices and the cloud. Sensors measure the environment, people, movement, temperature, any of a million potential attributes of the world around us. Vehicles, drones, smart buildings, our mobile phones -- they all collect vast amounts of data on their surroundings. Centralizing the sensor data on the cloud offers a simple, manageable data platform, making it easy to analyse the data and act upon it. However, such a vertical solution introduces potentially high latencies due to the physical distance and possibly numerous network hops between the sensor arrays and cloud platform. Further, transmitting the data may require a lot of bandwidth while draining the batteries of wireless devices. See the figure below for a simplified view of the vertical, cloud based sensor data architecture; data is collected and processed at the central cloud marked in red. 
+Currently, the discussion is on sensor devices and the Cloud. Sensors measure the environment, people, movement, temperature, any of a million potential attributes of the world around us. Vehicles, drones, smart buildings, our mobile phones -- they all collect vast amounts of data on their surroundings. Centralizing the sensor data on the Cloud offers a simple, manageable data platform, making it easy to analyse the data, make decisions based on the analysis, and act upon the decisions. However, such a vertical solution introduces potentially high latencies due to the physical distance and possibly numerous network hops between the sensor arrays and the Cloud platform. Further, transmitting the data may require a lot of bandwidth while draining the batteries of wireless devices. 
+
+The figure below shows a simplified view of the vertical, Cloud based sensor data architecture; data is collected and processed at the central Cloud marked in red. 
 
 ![](/img/Edge 4.jpg){width=50%}
 
@@ -24,7 +26,7 @@ A router node between wireless and wired networks, aptly named the "Edge", is a 
 1. Applications producing vast amounts of data (e.g. industrial control systems)
 1. Applications in heavily regulated areas, especially in terms of privacy (e.g. personal health monitoring)
 
-Edge computing tries to solve the data centralization problems by -- distribution. Shreds of the cloud are dragged to the Edge, introducing computing and storage resources in close proximity to where the data is produced. The figure below shows a simplified view of the Edge computing architecture; data is collected and processed both at the Edge as well as in the Cloud.
+Edge computing tries to solve the data centralization problems by -- distribution. Shreds of the Cloud are dragged to the Edge, introducing computing and storage resources in close proximity to where the data is produced. The figure below shows a simplified view of the Edge computing architecture; data is collected and processed both at the Edge as well as in the Cloud, marked in yellow.
 
 ![](/img/Edge 5.jpg){width=50%} 
 
