@@ -26,7 +26,7 @@ The routers nodes between wireless and wired networks, aptly named the "Edge", a
 1. Applications producing vast amounts of data (e.g. industrial control systems)
 1. Applications in heavily regulated areas, especially in terms of privacy (e.g. personal health monitoring)
 
-Edge computing tries to solve the data centralization problems by -- distribution. Shreds of the Cloud are dragged to the Edge, introducing computing and storage resources in close proximity to where the data is produced. The figure below shows a simplified view of the Edge computing architecture. Data is collected and processed both at the Edge as well as in the Cloud, marked in yellow.
+Edge computing tries to solve the data centralization problems by -- distribution. Shreds of the Cloud are dragged to the Edge, introducing computing and storage resources in close proximity to where the data is produced. The figure below shows a simplified view of the Edge computing architecture. Data is collected at the sensor devices, in grey, but processed both at the Edge as well as in the Cloud, marked in yellow.
 
 ![](/img/Edge 5.jpg){width=50%} 
 
