@@ -12,7 +12,7 @@ tags:
   - analytics
 ---
 
-The history of software architecture is a history of the ebb and flow of centralization and distribution. Centralization requires good network connections while promising simplicity, homogeneity, and ease of management. Distribution offers robustness and potentially unbounded scalability, but has high demands on design, especially in terms of security.  
+The history of software architectures is a history of the ebb and flow of centralization and distribution. Centralization requires good network connections while promising simplicity, homogeneity, and ease of management. Distribution offers robustness and potentially unbounded scalability, but has high demands on design, especially in terms of security.  
 
 Currently, the discussion is on sensor devices and the cloud. Sensors measure the environment, people, movement, temperature, any of a million potential attributes of the world around us. Vehicles, drones, smart buildings, our mobile phones -- they all collect vast amounts of data on their surroundings. Centralizing the sensor data on the cloud offers a simple, manageable data platform, making it easy to analyse the data and act upon it. However, such a vertical solution introduces potentially high latencies due to the physical distance and possibly numerous network hops between the sensor arrays and cloud platform. Further, transmitting the data may require a lot of bandwidth while draining the batteries of wireless devices. See Figure 1 for a simplified view of the vertical, cloud based sensor data architecture; data is collected and processed at the central cloud marked in red. 
 
