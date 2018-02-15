@@ -1,0 +1,30 @@
+---
+title: 'AI on the Edge, Part 1: What is the Edge?'
+author: Lauri Lovén
+date: '2018-02-15'
+slug: ai-on-the-edge
+categories:
+  - tech
+tags:
+  - machine learning
+  - AI
+  - Edge Computing
+  - analytics
+---
+
+
+
+<p>The history of software architecture is a history of the ebb and flow of centralization and distribution. Centralization requires good network connections while promising simplicity, homogeneity, and ease of management. Distribution offers robustness and potentially unbounded scalability, but has high demands on design, especially in terms of security.</p>
+<p>Currently, the discussion is on sensor devices and the cloud. Sensors measure the environment, people, movement, temperature, any of a million potential attributes of the world around us. Vehicles, drones, smart buildings, our mobile phones – they all collect vast amounts of data on their surroundings. Centralizing the sensor data on the cloud offers a simple, manageable data platform, making it easy to analyse the data and act upon it. However, such a vertical solution introduces potentially high latencies due to the physical distance and possibly numerous network hops between the sensor arrays and cloud platform. Further, transmitting the data may require a lot of bandwidth while draining the batteries of wireless devices. See Figure 1 for a simplified view of the vertical, cloud based sensor data architecture; data is collected and processed at the central cloud marked in red.</p>
+<p><img src="/img/Edge%204.jpg" style="width:50.0%" /></p>
+<p>A router node between wireless and wired networks, aptly named the “Edge”, is a natural focal point in the discourse. Wireless connections, while making it easy to deploy sensors en masse, do not offer the same transmission capacity as cables. Three broad use cases in particular suffer from a vertical sensor-to-cloud architecture:</p>
+<ol style="list-style-type: decimal">
+<li>Applications requiring low latencies (e.g. autonomous vehicles).</li>
+<li>Applications producing vast amounts of data (e.g. industrial control systems)</li>
+<li>Applications in heavily regulated areas, especially in terms of privacy (e.g. personal health monitoring)</li>
+</ol>
+<p>Edge computing tries to solve the data centralization problems by – distribution. Shreds of the cloud are dragged to the Edge, introducing computing and storage resources in close proximity to where the data is produced. See Figure 2 for a simplified view of the Edge computing architecture; data is collected and processed both at the Edge as well as in the Cloud.</p>
+<p><img src="/img/Edge%205.jpg" style="width:50.0%" /></p>
+<p>Further reading:</p>
+<p><a href="http://arxiv.org/abs/1702.05309">Mach, P., &amp; Becvar, Z. (2017). Mobile Edge Computing: A Survey on Architecture and Computation Offloading, 19(3), 1628–1656. https://doi.org/10.1109/COMST.2017.2682318</a>
+<a href="http://arxiv.org/abs/1701.01090">Mao, Y., You, C., Zhang, J., Huang, K., &amp; Letaief, K. B. (2017). A Survey on Mobile Edge Computing: The Communication Perspective, 19(4), 2322–2358. https://doi.org/10.1109/COMST.2017.2745201</a></p>
