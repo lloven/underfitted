@@ -30,5 +30,5 @@ Edge computing tries to solve the data centralization problems by -- distributio
 
 Further reading:
 
-[Mach, P., & Becvar, Z. (2017). Mobile Edge Computing: A Survey on Architecture and Computation Offloading, 19(3), 1628–1656. https://doi.org/10.1109/COMST.2017.2682318](http://arxiv.org/abs/1702.05309)
-[Mao, Y., You, C., Zhang, J., Huang, K., & Letaief, K. B. (2017). A Survey on Mobile Edge Computing: The Communication Perspective, 19(4), 2322–2358. https://doi.org/10.1109/COMST.2017.2745201](http://arxiv.org/abs/1701.01090)
+* [Mach, P., & Becvar, Z. (2017). Mobile Edge Computing: A Survey on Architecture and Computation Offloading, 19(3), 1628–1656. https://doi.org/10.1109/COMST.2017.2682318](http://arxiv.org/abs/1702.05309)
+* [Mao, Y., You, C., Zhang, J., Huang, K., & Letaief, K. B. (2017). A Survey on Mobile Edge Computing: The Communication Perspective, 19(4), 2322–2358. https://doi.org/10.1109/COMST.2017.2745201](http://arxiv.org/abs/1701.01090)
