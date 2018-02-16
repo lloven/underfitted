@@ -9,7 +9,7 @@ title = "MEC AI"
 summary = "We apply machine learning methods to predict MEC application resource usage and behavior."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "Edge 5.png"
+image_preview = "edge.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
