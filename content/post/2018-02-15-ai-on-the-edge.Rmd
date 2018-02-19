@@ -20,7 +20,7 @@ The figure below shows a simplified view of the vertical, Cloud based sensor dat
  
 ![](/img/vertical.jpg){width=50%}
 
-A natural focal point in the discourse are the network infrastructure devices between the wireless and the wired networks, aptly named the "Edge": gateways, routers, access access points. Wireless connections, while making it easy to deploy sensors en masse, do not offer the same reliability and transmission capacity as cables. Three broad use cases in particular suffer from a vertical sensor-to-cloud architecture:
+A natural focal point in the discourse are the network infrastructure devices between the wireless and the wired networks, aptly named the "Edge": gateways, routers, access points. Wireless connections, while making it easy to deploy sensors en masse, do not offer the same reliability and transmission capacity as cables. Three broad use cases in particular suffer from a vertical sensor-to-cloud architecture:
 
 1. Applications requiring low latencies (e.g. autonomous vehicles).
 1. Applications producing vast amounts of data (e.g. industrial control systems)
