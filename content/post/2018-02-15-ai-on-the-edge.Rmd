@@ -1,6 +1,6 @@
 ---
 title: 'AI on the Edge, Part 1: What is the Edge?'
-author: Lauri Lovén
+author: 'Lauri Lovén'
 date: '2018-02-15'
 slug: ai-on-the-edge
 categories:

@@ -10,9 +10,10 @@ weight = 5
 # List your academic interests.
 [interests]
   interests = [
+    "Data Analytics",
+    "Bayesian Inference",
     "Artificial Intelligence",
-    "Edge Computing",
-    "Bayesian Inference"
+    "Edge Computing"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -30,4 +31,4 @@ weight = 5
 
 # Biography
 
-Lauri Lovén is a doctoral researcher at the Center for Ubiquitous Computing in the University of Oulu. His research interests include distributed artificial intelligence, in particular in relation to edge computing.
+Lauri Lovén is a doctoral researcher at the Center for Ubiquitous Computing in the University of Oulu. His research interests include data analytics and distributed artificial intelligence, in particular in relation to edge computing.
